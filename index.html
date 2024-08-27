@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="logo_alura" src="./assets/Logo.png" alt="">
+    </header>
+    <main>
+        <div class="corpo">
+            <div class="area_1">
+                <textarea class="area_texto" cols="50" rows="9" placeholder="Digite seu texto"></textarea>
+                <div class="">
+                    <img src="./assets/exclamação.png">
+                    <span class="texto_aviso">Apenas letras minúsculas e sem acento.</span>
+                    <div class="botoes">
+                        <button class="btn_cripto" onclick="btnEncripto()">Criptografar</button>
+                        <button class="btn_descripto" onclick="btnDesencript()">Descriptografar</button>
+                    </div>
+                 </div>
+            </div>
+
+            <div  class="area_2">
+                <img class="boneco" src="./assets/High quality products.png">
+                <textarea class="area_texto_2" cols="40" rows="20" placeholder="Digite seu texto"></textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+            
+        </div>
+    </main>
+    <footer class="rodape">Desenvolvido por Lucas Maia 2024</footer>
+    <script src="./script.js"></script>
+</body>
+</html>
